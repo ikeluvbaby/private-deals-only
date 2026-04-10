@@ -1,0 +1,9 @@
+This package fixes the live "Failed to fetch" form error by routing submissions through a Netlify Function proxy.
+
+What changed:
+- Added netlify/functions/hydra-submit.mjs
+- Updated client/src/lib/hydraWebhook.ts to submit to /.netlify/functions/hydra-submit
+- Master Apps Script webhook URL is already embedded in the Netlify Function
+
+Upload the contents of this folder to the GitHub repo root and redeploy on Netlify.
+No manual code edits are required.
