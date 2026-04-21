@@ -1,6 +1,6 @@
 exports.handler = async function (event) {
-  const APPS_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycby5TSLM01kriqY2VCLiP9bg2HRpSGHlPvCo11YcgqbIvruWKKa8hSQh5zqHnvTVDkT4/exec";
+    const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbx7xIq9ET-eAVl0LYE49HuRVK3YZ59rsExU9lKBiYBgx3ZdtoD7fua5-iL1rBRok1E/exec";
 
   const headers = {
     "Access-Control-Allow-Origin": "*",
