@@ -51,7 +51,11 @@ export async function handler(event) {
       });
     }
 
-    return json(200, data);
+   return json(200, {
+  success: true,
+  ...data,
+});
+    
   } catch (error) {
     return json(500, {
       success: false,
