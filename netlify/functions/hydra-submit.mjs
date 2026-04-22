@@ -1,4 +1,4 @@
-const HYDRA_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwyepybBUx39smY9wICC5i2vhl501fzGDlotGcHDek7Rd0lzUIHIq8bpW8tpM-5PGMZgQ/exec";
+const HYDRA_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbx7xIq9ET-eAVl0LYE49HuRVK3YZ59rsExU9lKBiYBgx3ZdtoD7fua5-iL1rBRok1E/exec";
 
 const json = (statusCode, body) => ({
   statusCode,
